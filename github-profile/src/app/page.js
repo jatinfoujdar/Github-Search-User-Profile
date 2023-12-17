@@ -1,10 +1,11 @@
 "use client"
-import { Button } from "@chakra-ui/react";
+import { Button, Container } from "@chakra-ui/react";
+import Navbar from "./Components/Navbar";
 
 
 export default function Home(){
-  return <main>
+  return <Container maxW="container.lg">
 
-    <Button colorScheme="blue">Search</Button>
-  </main>;
+    <Navbar/>
+  </Container>;
 }
